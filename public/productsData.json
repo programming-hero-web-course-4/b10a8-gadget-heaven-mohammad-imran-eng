@@ -1,0 +1,355 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "MacBook Air M2",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtmlSg2G3LK8WL1rOjqRXB9R8YGWLLI7XXpA&s",
+      "category": "MacBook",
+      "price": 1199.99,
+      "description": "Apple MacBook Air with M2 chip, 13.6-inch Liquid Retina display, and 256GB SSD.",
+      "Specification": [
+        "M2 chip",
+        "13.6-inch Retina display",
+        "256GB SSD",
+        "8GB RAM"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 2,
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDmoujdi-RX9qtlGYxBc3qhXRFGlIBsrfvdQ&s",
+      "category": "Iphone",
+      "price": 999.99,
+      "description": "Apple iPhone 14 Pro with A16 Bionic chip and 48MP main camera.",
+      "Specification": [
+        "A16 Bionic chip",
+        "48MP camera",
+        "6.1-inch display",
+        "5G support"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 3,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyOYWJCPQqeesEabm7wF1tQ1kDFFZXqS109g&s",
+      "category": "Laptop",
+      "price": 1199.99,
+      "description": "Dell XPS 13 with 13.4-inch InfinityEdge display and 11th Gen Intel Core i7.",
+      "Specification": [
+        "11th Gen Intel Core i7",
+        "13.4-inch InfinityEdge display",
+        "512GB SSD",
+        "16GB RAM"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 4,
+      "product_title": "Samsung Galaxy S22 Ultra",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4vcue66AmMROQPWrG8ScVSUObC4voP5Zcvg&s",
+      "category": "Phone",
+      "price": 1199.99,
+      "description": "Samsung Galaxy S22 Ultra with 108MP camera and 6.8-inch AMOLED display.",
+      "Specification": [
+        "108MP camera",
+        "6.8-inch AMOLED display",
+        "5000mAh battery",
+        "5G support"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 5,
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0ShDyYQJc3b22Ugo_sbRocq560tWGZjuTQ&s",
+      "category": "SmartWatch",
+      "price": 399.99,
+      "description": "Apple Watch Series 8 with advanced health tracking and always-on display.",
+      "Specification": [
+        "Health tracking",
+        "Always-on display",
+        "Water resistant",
+        "GPS"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 6,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbidFTsaLl3TtAZMZmtbwfug9DHyipIahxWA&s",
+      "category": "Laptop",
+      "price": 1299.99,
+      "description": "HP Spectre x360 with 2-in-1 design and 4K touchscreen display.",
+      "Specification": [
+        "11th Gen Intel Core i7",
+        "4K touchscreen",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 7,
+      "product_title": "iPhone SE (2022)",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKrEzK-gQ2Ba1dsRAbCB0VWFPy9AM5DNS3Xw&s",
+      "category": "Iphone",
+      "price": 429.99,
+      "description": "Apple iPhone SE with A15 Bionic chip and compact 4.7-inch display.",
+      "Specification": [
+        "A15 Bionic chip",
+        "4.7-inch Retina HD display",
+        "12MP camera",
+        "5G support"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 8,
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://images.samsung.com/bd/galaxy-watch5-pro/feature/galaxy-watch5-pro-durability-waterproof-image-mo.jpg",
+      "category": "SmartWatch",
+      "price": 279.99,
+      "description": "Samsung Galaxy Watch 5 with advanced fitness tracking and AMOLED display.",
+      "Specification": [
+        "Fitness tracking",
+        "AMOLED display",
+        "Long battery life",
+        "Waterproof design"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 9,
+      "product_title": "MacBook Pro 14-inch",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3IXWWP-AGbg4hqgSa2nsiaVLNMQ0E6JMyzg&s",
+      "category": "MacBook",
+      "price": 1999.99,
+      "description": "Apple MacBook Pro 14-inch with M1 Pro chip and Liquid Retina XDR display.",
+      "Specification": [
+        "M1 Pro chip",
+        "14-inch Retina XDR display",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 10,
+      "product_title": "Sony Xperia 5 III",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jupvIOEcEVSGkUBoSm18J01hOueelSv4rQ&s",
+      "category": "Phone",
+      "price": 999.99,
+      "description": "Sony Xperia 5 III with triple-lens camera and 6.1-inch OLED display.",
+      "Specification": [
+        "Triple-lens camera",
+        "6.1-inch OLED display",
+        "Snapdragon 888",
+        "5G support"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 11,
+      "product_title": "Apple AirPods Pro 2",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPtr2SU5Yo5p31IIVC2XRiwlAoRIeIxmWeQ&s",
+      "category": "Accessories",
+      "price": 249.99,
+      "description": "Apple AirPods Pro with active noise cancelation and spatial audio.",
+      "Specification": [
+        "Active noise cancelation",
+        "Spatial audio",
+        "MagSafe charging",
+        "Sweat and water resistant"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 12,
+      "product_title": "Google Pixel Watch",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2uG682NB1ui2phRkYmcD2qzUnQknQh8KsHA&s",
+      "category": "SmartWatch",
+      "price": 349.99,
+      "description": "Google Pixel Watch with Wear OS and Fitbit integration.",
+      "Specification": [
+        "Wear OS",
+        "Fitbit health tracking",
+        "AMOLED display",
+        "GPS"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+        "product_id": 13,
+        "product_title": "Asus ZenBook Flip",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5O_2beJeb8KnDFGz52JlR0V5M0uOFnLwLw&s",
+        "category": "Laptop",
+        "price": 1499.99,
+        "description": "Asus ZenBook Flip 14 convertible laptop with 4K touchscreen and AMD Ryzen 9.",
+        "Specification": [
+          "4K touchscreen",
+          "AMD Ryzen 9",
+          "512GB SSD",
+          "16GB RAM"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 14,
+        "product_title": "Samsung Galaxy Z Fold 4",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKGyz2PaPF3aMWNHftECsBUek2o2cyKoQp0Q&s",
+        "category": "Phone",
+        "price": 1799.99,
+        "description": "Samsung Galaxy Z Fold 4 with a large foldable screen and multitasking features.",
+        "Specification": [
+          "Foldable 7.6-inch display",
+          "Triple rear cameras",
+          "Snapdragon 8+ Gen 1",
+          "5G connectivity"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 15,
+        "product_title": "Apple Watch Ultra",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtHzo8wQFd010qOVI0HT6ZxiBYIMaHTmqz3g&s",
+        "category": "SmartWatch",
+        "price": 749.99,
+        "description": "Apple Watch Ultra designed for extreme sports and outdoor activities.",
+        "Specification": [
+          "Ultra-durable design",
+          "Up to 36-hour battery life",
+          "GPS and altitude tracking",
+          "Water resistant up to 100 meters"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 16,
+        "product_title": "Xiaomi Redmi Note 12 Pro",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFQ70mVCiLNlHkRnRJX_-jjsQCkZTkayxkZg&s",
+        "category": "Phone",
+        "price": 299.99,
+        "description": "Xiaomi Redmi Note 12 Pro with a 108MP camera and 120Hz AMOLED display.",
+        "Specification": [
+          "108MP triple rear cameras",
+          "120Hz AMOLED screen",
+          "MediaTek Dimensity chip",
+          "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 17,
+        "product_title": "Microsoft Surface Laptop Studio",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMHA9SbFHK8RissHir1-WJDFYjsBnN5ePrVw&s",
+        "category": "Laptop",
+        "price": 1899.99,
+        "description": "Microsoft Surface Laptop Studio for creatives with a powerful Intel chip and Surface Pen support.",
+        "Specification": [
+          "Core i7 processor",
+          "16GB RAM",
+          "1TB SSD",
+          "360-degree hinge"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 18,
+        "product_title": "Apple MacBook Pro 16-inch M1 Max",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMHA9SbFHK8RissHir1-WJDFYjsBnN5ePrVw&s",
+        "category": "MacBook",
+        "price": 2399.99,
+        "description": "Apple MacBook Pro 16-inch powered by M1 Max, perfect for creatives and professionals.",
+        "Specification": [
+          "M1 Max chip",
+          "64GB RAM",
+          "2TB SSD",
+          "16-inch Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 19,
+        "product_title": "OnePlus 10 Pro",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSejdIMnf9ohotO8feUbSlWJsWxKl08r5auYw&s",
+        "category": "Phone",
+        "price": 599.99,
+        "description": "OnePlus 10 Pro with a 120Hz Fluid AMOLED display and Snapdragon processor.",
+        "Specification": [
+          "120Hz Fluid AMOLED screen",
+          "Triple rear cameras",
+          "Snapdragon 8 Gen 1",
+          "5G connectivity"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 20,
+        "product_title": "Logitech Wireless Accessories Kit",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkTAhD59DchGD9rXRS8f4FlfLz08Bow8YX5g&s",
+        "category": "Accessories",
+        "price": 99.99,
+        "description": "Logitech wireless accessories kit including a mouse, keyboard, and webcam.",
+        "Specification": [
+          "Wireless mouse and keyboard",
+          "HD webcam with wide-angle view",
+          "USB receiver connectivity",
+          "Long battery life"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 21,
+        "product_title": "Acer Predator Helios 300",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuigNh9Y9ty9W6qYjI_CwGZy7yfv8TKDE1hA&s",
+        "category": "Laptop",
+        "price": 1599.99,
+        "description": "Acer Predator Helios 300 gaming laptop with RTX 3070 and fast refresh rates.",
+        "Specification": [
+          "Intel Core i7 processor",
+          "NVIDIA RTX 3070 graphics",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 22,
+        "product_title": "Oppo Find N",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIvidsTeZKyfD5k0aluhgRinONgraFYouVlg&s",
+        "category": "Phone",
+        "price": 799.99,
+        "description": "Compact Oppo Find N foldable phone with powerful performance and camera features.",
+        "Specification": [
+          "Compact foldable screen",
+          "Triple rear cameras",
+          "Snapdragon 8 Gen 1",
+          "Fast charging support"
+        ],
+        "availability": true,
+        "rating": 4.6
+      }
+  ]
+  
