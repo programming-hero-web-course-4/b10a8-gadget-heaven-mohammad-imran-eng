@@ -3,7 +3,6 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,Legend } from "rech
 
 const Statistics = () => {
   const [data, setData] = useState([]);
-  console.log(data);
   const [loading, setLoading] = useState(true);
 
   // Fetch data from an API
@@ -27,6 +26,7 @@ const Statistics = () => {
     };
 
     fetchData();
+
   }, []);
 
   return (

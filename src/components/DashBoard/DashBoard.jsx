@@ -11,6 +11,9 @@ const DashBoard = () => {
   const [showCart, setShowCart] = useState([]);
   const [showWish, setShowWish] = useState([]);
 
+  const totalPrice = showCart.reduce((sum, item) => sum + item.price, 0);
+  
+
   const handleSortCart = ()=> {
     const sortedData = [...showCart].sort((a,b)=> parseInt(a.price) - parseInt(b.price));
     setShowCart(sortedData);
@@ -34,6 +37,9 @@ const DashBoard = () => {
       wishList?.includes(product.product_id)
     );
     setShowWish(wishListProduct);
+
+   
+
   }, []);
 
   const handleRemoveToCart =(id)=> {
@@ -71,18 +77,20 @@ const DashBoard = () => {
                   <div>
                     <h2 className="text-2xl font-bold">Cart</h2>
                   </div>
-                  <div>
+                  <div className="flex items-center">
+                    <p className="font-bold text-[18px] mr-4">Total Cost: {totalPrice.toFixed(2)}</p>
                     <button className="btn btn-outline btn-primary" onClick={handleSortCart}>Sort <FaArrowDownShortWide /> </button>
                   </div>
                 </div>
             {showCart.map((product, idx) => (
+              
               <article key={idx}>
                 <div className="flex items-cente py-5">
                   <div className="grid grid-cols-2 justify-between items-center">
                   <div className="flex items-center">
                     <div>
                       <img
-                        className="rounded-md"
+                        className="rounded-md h-[100px] w-[300px]"
                         src={product.product_image}
                         alt=""
                       />
@@ -119,7 +127,7 @@ const DashBoard = () => {
                   <div className="flex items-center">
                     <div>
                       <img
-                        className="rounded-md"
+                        className="rounded-md h-[100px] w-[300px]"
                         src={product.product_image}
                         alt=""
                       />

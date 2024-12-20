@@ -71,10 +71,10 @@ const ProductDetails = () => {
           </div>
           <p className="font-bold">Rating: {product.state.rating}</p>
           <div className="flex items-center">
-          <Link onClick={()=>handleAddToCart(product.state.product_id)} to='/dashboard'  className="btn btn-outline btn-primary font-bold mt-2">
+          <button onClick={()=>handleAddToCart(product.state.product_id)}   className="btn btn-outline btn-primary font-bold mt-2">
             Add To Cart <CiShoppingCart />
-          </Link>
-          <Link onClick={()=>handleAddToWhishlist(product.state.product_id)} to='/dashboard' className="btn btn-outline btn-primary ml-3 mt-1"><IoIosAddCircleOutline /></Link>
+          </button>
+          <button onClick={()=>handleAddToWhishlist(product.state.product_id)}  className="btn btn-outline btn-primary ml-3 mt-1"><IoIosAddCircleOutline /></button>
                 
           </div>
         </div>
