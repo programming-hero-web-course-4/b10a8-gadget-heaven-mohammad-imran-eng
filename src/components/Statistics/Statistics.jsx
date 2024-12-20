@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,Legend } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,Legend, ResponsiveContainer } from "recharts";
 
 const Statistics = () => {
   const [data, setData] = useState([]);
@@ -35,15 +35,17 @@ const Statistics = () => {
         <p>Loading...</p>
       ) : (
         <div className="max-w-screen-lg mx-auto my-10">
-            <BarChart width={1000} height={500} data={data}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
-              <YAxis dataKey="price"/>
-              <Tooltip />
-              <Legend />
-              <Bar dataKey="price" fill="#8884d8" />
-              <Bar dataKey="rating" fill="#FF0000" />
-            </BarChart>
+            <ResponsiveContainer width="100%" aspect="3">
+              <BarChart width={1000} height={500} data={data}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis dataKey="price"/>
+                <Tooltip />
+                <Legend />
+                <Bar dataKey="price" fill="#8884d8" />
+                <Bar dataKey="rating" fill="#FF0000" />
+              </BarChart>
+            </ResponsiveContainer>
         </div>
       )}
     </div>
