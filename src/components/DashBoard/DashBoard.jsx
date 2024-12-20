@@ -3,6 +3,7 @@ import { NavLink, useLoaderData } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { MdDeleteOutline } from "react-icons/md";
+import { FaArrowDownShortWide } from "react-icons/fa6";
 
 const DashBoard = () => {
   const products = useLoaderData();
@@ -10,6 +11,14 @@ const DashBoard = () => {
   const [showCart, setShowCart] = useState([]);
   const [showWish, setShowWish] = useState([]);
 
+  const handleSortCart = ()=> {
+    const sortedData = [...showCart].sort((a,b)=> parseInt(a.price) - parseInt(b.price));
+    setShowCart(sortedData);
+  }
+  const handleSortWish = ()=> {
+    const sortedData = [...showWish].sort((a,b)=> parseInt(a.price) - parseInt(b.price));
+    setShowWish(sortedData);
+  }
   
 
   useEffect(() => {
@@ -58,19 +67,16 @@ const DashBoard = () => {
           </TabList>
 
           <TabPanel>
-            {showCart.map((product, idx) => (
-              <article key={idx}>
-                {/* cart price and shorting */}
-                <div className="flex justify-between">
+          <div className="flex justify-between">
                   <div>
                     <h2 className="text-2xl font-bold">Cart</h2>
                   </div>
                   <div>
-                    
-                    Total cost : 
+                    <button className="btn btn-outline btn-primary" onClick={handleSortCart}>Sort <FaArrowDownShortWide /> </button>
                   </div>
                 </div>
-                {/* cart price and shorting */}
+            {showCart.map((product, idx) => (
+              <article key={idx}>
                 <div className="flex items-cente py-5">
                   <div className="grid grid-cols-2 justify-between items-center">
                   <div className="flex items-center">
@@ -98,6 +104,14 @@ const DashBoard = () => {
             ))}
           </TabPanel>
           <TabPanel>
+                <div className="flex justify-between">
+                  <div>
+                    <h2 className="text-2xl font-bold">WishList</h2>
+                  </div>
+                  <div>
+                    <button className="btn btn-outline btn-primary" onClick={handleSortWish}>Sort <FaArrowDownShortWide /> </button>
+                  </div>
+                </div>
             {showWish.map((product, idx) => (
               <article key={idx}>
                 <div className="flex items-cente py-5">

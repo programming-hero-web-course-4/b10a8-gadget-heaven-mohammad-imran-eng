@@ -8,9 +8,10 @@ import {
 import Root from './components/Root.jsx';
 import Home from './components/Home/Home.jsx';
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx';
-import DashBoard from './components/Dashboard/DashBoard.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
+import DashBoard from './components/DashBoard/DashBoard.jsx';
+import { ToastContainer } from 'react-toastify';
 
 const router = createBrowserRouter([
   {
@@ -44,5 +45,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer />
   </StrictMode>,
 )
