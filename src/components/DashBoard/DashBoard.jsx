@@ -4,22 +4,25 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { MdDeleteOutline } from "react-icons/md";
 
-
 const DashBoard = () => {
   const products = useLoaderData();
 
   const [showCart, setShowCart] = useState([]);
   const [showWish, setShowWish] = useState([]);
 
+  
+
   useEffect(() => {
     const cart = localStorage.getItem("cart");
     const wishList = localStorage.getItem("wish-list");
     const cartProduct = products.filter((product) =>
-      cart.includes(product.product_id)
+      cart?.includes(product.product_id)
     );
+
+
     setShowCart(cartProduct);
     const wishListProduct = products.filter((product) =>
-      wishList.includes(product.product_id)
+      wishList?.includes(product.product_id)
     );
     setShowWish(wishListProduct);
   }, []);
@@ -57,17 +60,28 @@ const DashBoard = () => {
           <TabPanel>
             {showCart.map((product, idx) => (
               <article key={idx}>
+                {/* cart price and shorting */}
+                <div className="flex justify-between">
+                  <div>
+                    <h2 className="text-2xl font-bold">Cart</h2>
+                  </div>
+                  <div>
+                    
+                    Total cost : 
+                  </div>
+                </div>
+                {/* cart price and shorting */}
                 <div className="flex items-cente py-5">
                   <div className="grid grid-cols-2 justify-between items-center">
-                  <div>
+                  <div className="flex items-center">
                     <div>
                       <img
-                        className="rounded-md mr-10"
+                        className="rounded-md"
                         src={product.product_image}
                         alt=""
                       />
                     </div>
-                    <div>
+                    <div className="ml-5">
                       <h2 className="text-2xl font-semibold">
                         {product.product_title}
                       </h2>
@@ -88,15 +102,15 @@ const DashBoard = () => {
               <article key={idx}>
                 <div className="flex items-cente py-5">
                   <div className="grid grid-cols-2 justify-between items-center">
-                  <div>
+                  <div className="flex items-center">
                     <div>
                       <img
-                        className="rounded-md mr-10"
+                        className="rounded-md"
                         src={product.product_image}
                         alt=""
                       />
                     </div>
-                    <div>
+                    <div className="ml-5">
                       <h2 className="text-2xl font-semibold">
                         {product.product_title}
                       </h2>
